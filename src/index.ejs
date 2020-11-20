@@ -197,7 +197,7 @@
 				-moz-appearance: textfield; /* Firefox */
 			}
 
-			.gallery {
+			.created-by {
 				position: fixed;
 				bottom: 20px;
 				right: 20px;
@@ -210,7 +210,7 @@
 				user-select: none;
 			}
 
-			.gallery-link {
+			.profile-link {
 				text-decoration: none;
 				color: #01579b;
 			}
@@ -238,7 +238,7 @@
 				#dialog {
 					transform: scale(0.41) translateY(-100%);
 				}
-				.gallery {
+				.created-by {
 					right: 50%;
 					bottom: 10px;
 					font-size: 7px;
@@ -283,14 +283,14 @@
 			</div>
 		</div>
 
-		<div class="gallery">
-			Gallery >
+		<div class="created-by">
+			Created by
 			<a
-				class="gallery-link"
-				href="/gallery.html"
+				class="profile-link"
+				href="https://www.linkedin.com/in/alex-zinkevych"
 				target="_blank"
 			>
-				click disini
+				Alex Zinkevych
 			</a>
 		</div>
 
@@ -311,9 +311,9 @@
 
 		<% if(htmlWebpackPlugin.options.options.env === 'production'){ %>
 		<script>
-		
+			// Check that service workers are registered
 			if ('serviceWorker' in navigator) {
-				
+				// Use the window load event to keep the page load performant
 				window.addEventListener('load', () => {
 					navigator.serviceWorker.register('./sw.js');
 				});
@@ -321,6 +321,4 @@
 		</script>
 		<% } %>
 	</body>
-	<!--15 november 2020-->
-	<!--github.com/riodelord-->
 </html>
