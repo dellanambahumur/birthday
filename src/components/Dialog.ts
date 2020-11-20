@@ -9,34 +9,22 @@ export interface ILevelDialog {
 
 const DIALOGS: ILevelDialog[] = [
 	{
-		question: 'What is your name?',
-		answers: ['orly', 'орли', 'אורלי'],
-		hint: '(?) This game is made for my beloved girlfriend...'
+		question: 'Siapa nama kamu?',
+		answers: ['della', 'dela', 'adel','dellataufika'],
+		hint: '(?) kamu siapa?. kalo kamu gatau, berarti ini bukan untuk kamu!'
 	},
 	{
 		question:
-			'Who is the best guy in the world?<br>' +
+			'dan siapa aku????' +
 			'<span class="dialog-hint">(...he made this game)</span>',
 		answers: [
-			'alex',
-			'alexey',
-			'aleksey',
-			'oleksii',
-			'алекс',
-			'алексей',
-			'леша',
-			'лёша',
-			'лёшенька',
-			'лешенька',
-			'алёша',
-			'alexeychikk',
-			'אלכס',
-			'אלכסיי'
+			'rio',
+			'Rio',
 		],
-		hint: '(?) Come on, just look at the bottom of the screen!'
+		hint: '(?) hadehhh salah'
 	},
 	{
-		question: 'How many gifts do you want for your birthday?',
+		question: 'kamu mau hadiah berapa banyak?',
 		answers: [],
 		type: 'number'
 	}

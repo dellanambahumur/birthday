@@ -46,7 +46,7 @@
 
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 
-		<title>Happy Birthday Orly</title>
+		<title>Happy Birthday Della</title>
 	</head>
 	<body>
 		<style>
@@ -197,7 +197,7 @@
 				-moz-appearance: textfield; /* Firefox */
 			}
 
-			.created-by {
+			.gallery {
 				position: fixed;
 				bottom: 20px;
 				right: 20px;
@@ -210,7 +210,7 @@
 				user-select: none;
 			}
 
-			.profile-link {
+			.gallery-link {
 				text-decoration: none;
 				color: #01579b;
 			}
@@ -238,7 +238,7 @@
 				#dialog {
 					transform: scale(0.41) translateY(-100%);
 				}
-				.created-by {
+				.gallery {
 					right: 50%;
 					bottom: 10px;
 					font-size: 7px;
@@ -283,14 +283,14 @@
 			</div>
 		</div>
 
-		<div class="created-by">
-			Created by
+		<div class="gallery">
+			Gallery >
 			<a
-				class="profile-link"
-				href="https://www.linkedin.com/in/alex-zinkevych"
+				class="gallery-link"
+				href="/gallery.html"
 				target="_blank"
 			>
-				Alex Zinkevych
+				click disini
 			</a>
 		</div>
 
@@ -311,9 +311,9 @@
 
 		<% if(htmlWebpackPlugin.options.options.env === 'production'){ %>
 		<script>
-			// Check that service workers are registered
+		
 			if ('serviceWorker' in navigator) {
-				// Use the window load event to keep the page load performant
+				
 				window.addEventListener('load', () => {
 					navigator.serviceWorker.register('./sw.js');
 				});
@@ -321,4 +321,6 @@
 		</script>
 		<% } %>
 	</body>
+	<!--15 november 2020-->
+	<!--github.com/riodelord-->
 </html>
