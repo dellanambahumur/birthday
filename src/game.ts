@@ -1,9 +1,9 @@
-import 'phaser.d';
-
+import 'phaser.d.ts';
+import { Types } from "phaser";
 
 import { MainScene } from './scenes/MainScene';
 
-const config: GameConfig = {
+const config: Types.Core.GameConfig = {
 	type: Phaser.AUTO,
 	width: window.innerWidth,
 	height: window.innerHeight,
