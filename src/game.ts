@@ -1,4 +1,5 @@
-import 'phaser';
+import 'phaser.d';
+
 
 import { MainScene } from './scenes/MainScene';
 
