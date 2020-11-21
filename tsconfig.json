@@ -9,7 +9,6 @@
 		"sourceMap": true,
 		"strictPropertyInitialization": false,
 		"typeRoots": ["./node_modules/@types", "./node_modules/phaser/types"],
-		"types": ["Phaser"],
 		"lib": ["dom", "es5", "esnext", "scripthost"],
 		"baseUrl": "./",
 		"paths": {

@@ -74,7 +74,7 @@ export class LevelMap {
 	public getObjects(name: string): LevelObject[] {
 		const objects = this.objectsLayer.objects.filter(
 			o => o.name === name
-		) as LevelObject[];
+		) as unknown as LevelObject[];
 
 		objects.forEach(o => Object.assign(o, this.scaleObject(o)));
 		return objects;

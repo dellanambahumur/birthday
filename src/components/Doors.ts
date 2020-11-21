@@ -117,8 +117,7 @@ export class Doors {
 		this.questionAreas = this.createSprites({
 			objectName: 'question',
 			fn: (sprite, obj) => {
-				sprite.body.width = obj.displayWidth;
-				sprite.body.height = obj.displayHeight;
+				sprite.body.setSize(obj.displayWidth,obj.displayHeight);
 			}
 		});
 	}
