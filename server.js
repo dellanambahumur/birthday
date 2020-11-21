@@ -37,6 +37,6 @@ app
 			.createReadStream(filePath, { start: start, end: end })
 			.on('open', () => stream.pipe(res));
 	})
-	.use(express.static(folder, { maxAge: 0 }))
+	.use(express.static(folder, { maxAge: 0 }, 'static'))
 	.get('/', (req, res) => res.sendFile(indexFile))
 	.listen(PORT, () => console.log(`Listening on ${PORT}`));
