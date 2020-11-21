@@ -15,7 +15,7 @@
 		"server": "pm2-runtime start ecosystem.config.js --env production"
 	},
 	"engines": {
-		"node": "12.x"
+		"node": "14.x"
 	},
 	"license": "MIT",
 	"devDependencies": {
@@ -39,7 +39,7 @@
 	"dependencies": {
 		"@awaitjs/express": "^0.3.0",
 		"express": "^4.16.4",
-		"phaser": "^3.16.2",
+		"phaser": "^3.17.0",
 		"pm2": "^3.5.0"
 	}
 }
