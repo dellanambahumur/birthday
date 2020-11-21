@@ -244,7 +244,7 @@ export class Player {
 		this.sprite.setPosition(x, y - this.sprite.displayHeight);
 		this.sprite.anims.load(this.animations.walk.key);
 		this.sprite.anims.load(this.animations.jump.key);
-		this.sprite.body.width;
+		this.sprite.body.setSize(36);
 		this.sprite.body.offset.x = 20;
 		this.sprite.setDepth(48);
 		this.scene.cameras.main.startFollow(this.sprite);

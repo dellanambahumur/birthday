@@ -1,6 +1,5 @@
-import 'phaser.d.ts';
+import 'phaser';
 import { Types } from "phaser";
-
 import { MainScene } from './scenes/MainScene';
 
 const config: Types.Core.GameConfig = {
