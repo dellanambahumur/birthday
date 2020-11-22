@@ -9,9 +9,9 @@ export interface ILevelDialog {
 
 const DIALOGS: ILevelDialog[] = [
 	{
-		question: 'Siapa nama kamu?',
+		question: 'cie nambah tua, siapa nama kamu?',
 		answers: ['della', 'dela', 'adel','dellataufika'],
-		hint: '(?) kamu siapa?. kalo kamu gatau, berarti ini bukan untuk kamu!'
+		hint: '(?) kamuu lhoo yang ulang tahun hari ini !!!, gaboleh nama palsu!'
 	},
 	{
 		question:
