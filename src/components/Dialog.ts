@@ -9,17 +9,19 @@ export interface ILevelDialog {
 
 const DIALOGS: ILevelDialog[] = [
 	{
-		question: 'cie nambah tua, siapa nama kamu?',
+		question: 'Nama kamu!?',
 		answers: ['della', 'dela', 'adel','dellataufika'],
 		hint: '(?) kamuu lhoo yang ulang tahun hari ini !!!, gaboleh nama palsu!'
 	},
 	{
 		question:
-			'dan siapa aku????' +
-			'<span class="dialog-hint">(...he made this game)</span>',
+			'Tanggal Berapa sih Sekarang?' +
+			'<span class="dialog-hint">(...26?)</span>',
 		answers: [
-			'rio',
-			'Rio',
+			'26',
+			'27',
+			'28',
+			'29',
 		],
 		hint: '(?) hadehhh salah'
 	},
